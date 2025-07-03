@@ -1,0 +1,167 @@
+.gradient-custom {
+    background: url("/img/bg-univ.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+/* .card-custom {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+} */
+ .card{
+     background-color: transparent;
+     border: 0px;
+     cursor: pointer;
+     
+ }
+ .card-custom {
+     background: rgba(255, 255, 255, 0.05);
+     border-radius: 10px;
+     padding: 25px;
+     transition: box-shadow 0.3s ease;
+     backdrop-filter: blur(55px);
+     border: 1px solid rgba(255, 255, 255, 0.25);
+     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+ }
+ .card-custom:hover {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ .container-edit {
+    background-color: rgba(255, 255, 255, 0.0);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+    display: block;
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-style: bold;
+}
+
+.shadow-custom{
+    -webkit-box-shadow: -1px 1px 20px 3px rgba(128,121,128,1);
+-moz-box-shadow: -1px 1px 20px 3px rgba(128,121,128,1);
+box-shadow: -1px 1px 20px 3px rgba(128,121,128,1);
+}
+
+/* Blue and White Theme Overrides */
+body {
+    background-color: #ECF0F1 !important; /* Light Gray */
+    color: #2C3E50 !important;
+}
+
+.main-sidebar {
+    background-color: #2C3E50 !important; /* Dark Blue */
+}
+
+.nav-sidebar .nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-sidebar .nav-item.menu-open > .nav-link,
+.nav-sidebar .nav-link.active {
+    background-color: #3498DB !important; /* Blue */
+    color: #FFFFFF !important;
+}
+
+.main-header {
+    background-color: #2C3E50 !important; /* Dark Blue */
+}
+
+.main-header .nav-link {
+    color: #FFFFFF !important;
+}
+
+.card {
+    background-color: #FFFFFF !important; /* White */
+    border-color: #ECF0F1 !important; /* Light Gray */
+    color: #2C3E50 !important;
+}
+
+.card-header {
+    background-color: #3498DB !important; /* Blue */
+    color: #FFFFFF !important;
+    border-bottom: 1px solid #2C3E50 !important;
+}
+
+.btn-primary {
+    background-color: #2C3E50 !important; /* Dark Blue */
+    border-color: #2C3E50 !important;
+    color: #FFFFFF !important;
+}
+
+.btn-primary:hover {
+    background-color: #1F2D3D !important; /* Slightly darker dark blue */
+    border-color: #1F2D3D !important;
+}
+
+.btn-success {
+    background-color: #28A745 !important; /* Green (default Bootstrap success) */
+    border-color: #28A745 !important;
+    color: #FFFFFF !important;
+}
+
+.btn-success:hover {
+    background-color: #218838 !important;
+    border-color: #1E7E34 !important;
+}
+
+.btn-info {
+    background-color: #17A2B8 !important; /* Cyan (default Bootstrap info) */
+    border-color: #17A2B8 !important;
+    color: #FFFFFF !important;
+}
+
+.btn-info:hover {
+    background-color: #138496 !important;
+    border-color: #117A8B !important;
+}
+
+.btn-warning {
+    background-color: #FFC107 !important; /* Yellow (default Bootstrap warning) */
+    border-color: #FFC107 !important;
+    color: #212529 !important;
+}
+
+.btn-warning:hover {
+    background-color: #E0A800 !important;
+    border-color: #CC9900 !important;
+}
+
+.btn-danger {
+    background-color: #DC3545 !important; /* Red (default Bootstrap danger) */
+    border-color: #DC3545 !important;
+    color: #FFFFFF !important;
+}
+
+.btn-danger:hover {
+    background-color: #C82333 !important;
+    border-color: #BD2130 !important;
+}
+
+.content-header h1,
+.card-title,
+.form-label,
+th, td {
+    color: #2C3E50 !important;
+}
+
+.small-box {
+    color: #FFFFFF !important;
+}
+
+.small-box.bg-info {
+    background-color: #3498DB !important;
+}
+.small-box.bg-success {
+    background-color: #2C3E50 !important;
+}
+.small-box.bg-warning {
+    background-color: #3498DB !important;
+}
+.small-box.bg-danger {
+    background-color: #2C3E50 !important;
+}
